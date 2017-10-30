@@ -4,6 +4,8 @@
 ##### 스마트카 이상 징후 예측, 스마트카 운전 패턴 군집을 추출한다. 
 
 
+![domain] (https://github.com/yonwon01/bigdata/blob/master/domain.png)
+
 
 
 
