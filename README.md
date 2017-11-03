@@ -33,7 +33,7 @@
          
 
 * 아키텍쳐
-![architecture](https://github.com/yonwon01/bigdata/blob/master/architecture.png)
+![software architecture](https://github.com/yonwon01/bigdata/blob/master/software architecture.png)
 
 * 데이터셋 : 스마트카 상태 데이터와 스마트카 실시간 주행 데이터 시뮬레이터 개발
    ##### 시뮬레이터 코드(https://github.com/yonwon01/smartcarlog)
