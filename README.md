@@ -14,13 +14,13 @@
          * Cloudera Management
          * PostgresSQL
          
-   *  server02
+    *  server02
          * Hadoop DataNode  * Oozie     * Storm
          * HBase Resion     * Redis     * Hive/Spark
          * Zeppelin         * Zookeeper * Kafka
          * Hume             * Flume
          
-   *  server03
+    *  server03
          * Hadoop DataNode
          * HBase Resion
          * Impala
