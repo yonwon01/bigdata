@@ -16,10 +16,17 @@
          
     *  server02
     
-         * Hadoop DataNode  * Oozie     * Storm
-         * HBase Resion     * Redis     * Hive/Spark
-         * Zeppelin         * Zookeeper * Kafka
-         * Hume             * Flume
+         * Hadoop DataNode 
+         * Oozie     
+         * Storm
+         * HBase Resion     
+         * Redis     
+         * Hive/Spark
+         * Zeppelin         
+         * Zookeeper 
+         * Kafka
+         * Hume             
+         * Flume
          
     *  server03
          * Hadoop DataNode
