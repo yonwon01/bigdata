@@ -7,7 +7,7 @@
 
 * 개발 환경 : 윈도우 X86 (RAM:16GM, HDD:256GB) -> window10 -> virtual box 3대(server01,server02,server03)
     *  server01
-         > Hadoop NameNode
+         >> Hadoop NameNode
          > Hadoop DataNode
          > HBase Management
          > HBase Region Server
