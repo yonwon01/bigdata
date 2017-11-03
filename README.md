@@ -5,8 +5,8 @@
 *  스마트카 상태 데이터와 스마트카 실시간 주행 데이터 시뮬레이터 개발
    ##### 시뮬레이터 코드(https://github.com/yonwon01/smartcarlog)
 
-* 개발 환경 : 윈도우 X86 (RAM:16GM, HDD:256GB) -> window10 -> virtual box 3대(server01,server02,server03)
-    *  server01
+* 개발 환경 : 윈도우 X86 (RAM:16GM, HDD:256GB) -> window10 -> virtual box 3대(Linux server01,Linux server02,Linux server03)
+    *  server01 (lx01.bigdata2017.com , 192.168.1.32, CentOs 6.9 ,Java 1.7)
          * Hadoop NameNode
          * Hadoop DataNode
          * HBase Management
@@ -14,7 +14,7 @@
          * Cloudera Management
          * PostgresSQL
          
-    *  server02
+    *  server02 (lx02.bigdata2017.com , 192.168.1.54, CentOs 6.9 ,Java 1.7)
     
          * Hadoop DataNode 
          * Oozie     
@@ -28,7 +28,7 @@
          * Hume             
          * Flume
          
-    *  server03
+    *  server03 (lx03.bigdata2017.com , 192.168.1.55, CentOs 6.9 ,Java 1.7)
          * Hadoop DataNode
          * HBase Resion
          * Impala
