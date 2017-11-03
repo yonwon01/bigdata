@@ -5,6 +5,16 @@
 *  스마트카 상태 데이터와 스마트카 실시간 주행 데이터 시뮬레이터 개발
 ##### 시뮬레이터 코드(https://github.com/yonwon01/smartcarlog)
 
+* 개발 환경 : 윈도우 X86 (RAM:16GM, HDD:256GB) -> window10 -> virtual box 3대(server01,server02,server03)
+ #### server01
+      > Hadoop NameNode
+      > Hadoop DataNode
+      > HBase Management
+      > HBase Region Server
+      > Cloudera Management
+      > PostgresSQL
+
+
 * 순서도
 
 ![domain](https://github.com/yonwon01/bigdata/blob/master/domain.png)
