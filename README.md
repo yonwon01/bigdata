@@ -13,6 +13,7 @@
          * HBase Region Server
          * Cloudera Management
          * PostgresSQL
+         
    *  server02
          * Hadoop DataNode  * Oozie     * Storm
          * HBase Resion     * Redis     * Hive/Spark
