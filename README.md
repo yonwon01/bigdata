@@ -42,6 +42,12 @@
 ![domain](https://github.com/yonwon01/bigdata/blob/master/domain.png)
 
 
+ 구성순서
+ 1.수집
+ 
+ 2.적재
+  *  상태
+
 
 
 
