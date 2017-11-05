@@ -38,15 +38,11 @@
 * 데이터셋 : 스마트카 상태 데이터와 스마트카 실시간 주행 데이터 시뮬레이터 개발
    ##### 시뮬레이터 코드(https://github.com/yonwon01/smartcarlog)
 
-* 
+* 운전자 주행 데이터는 실시간으로 1초에 최대 4kbyte씩 100대의 자동차 로그데이터 수집
+* 자동차 상태 데이터는 1일에 1mbyte씩 100대의 자동차 로그데이터 수집
+
 ![domain](https://github.com/yonwon01/bigdata/blob/master/domain.png)
 
-
- 구성순서
- 1.수집
- 
- 2.적재
-  *  상태
 
 
 
