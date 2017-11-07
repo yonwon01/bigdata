@@ -53,10 +53,8 @@
           -  플럼의 Source 컴포넌트 중 SpoolDir를 이용해 주기적으로 로그 파일 발생 감지
       3) 실시간 로그 발생 이벤트 감지           
           -  플럼의 Source 컴포넌트 중 Exec-Tail을 이용해 특정 로그파일에서 로그  생성 이벤트 감지
-      4) 로그 데이터의 가비지 데이터 처리     
-          -  플럼의 Interceptor를 사용해서 정상 패턴의 데이터만 필터링
-            ##### 코드(https://github.com/yonwon01/smartcar.Interceptor)
-
+      4) 로그 데이터의 가비지 데이터 처리     - 코드(https://github.com/yonwon01/smartcar.Interceptor)
+          -  플럼의 Interceptor를 사용해서 정상 패턴의 데이터만 필터링 
       5) 장애 발생에 대한 데이터의 안전한 보관 및 적재 처리 유지
           -  플럼의 메모리 Channel  그리고 카프카 Broker 사용으로  수집 데이터 임시 저장
       6) 실시간 로그 파일에 대한 비동기 처리 
