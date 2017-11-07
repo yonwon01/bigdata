@@ -81,15 +81,14 @@
        - 플럼의 Source 컴포넌트 중 SpoolDir의 DeletePolicy 활용
        
        
-  -- 자동차 상태 데이터 적재
+##### 자동차 상태 데이터 적재
 
 
 ##### 실시간 주행 데이터 적재
         <1> storm의 spout이 kafka의 topic으로 부터 차량의 실시간 주행 데이터를 받아 hbaseblot로 보내고 esper epl에서 정의한 조건에 따라 과속한 차량의 정보를 redissplot으로 보냄
         <2> hbase의 table에  ‘차량번호 + 발생일시’ 를 Row키로 8개의 컬럼(발생일시, 차량번호, 가속페달, 브레이크 페달, 운전대 회전각, 방향지시등, 주행속도, 주행구역)의 구조로 모든 차량의 주행정보가 적재
         <3> 레디스에는 현재 날짜를 키로 해서 과속한 차량의 정보를 세트 데이터 구조로 적재한다. 적재 영속 시간은 5시간으로 지나면 메모리에서 삭제
-
---storm topology및 bolt구현
+##### storm topology및 bolt구현 (https://github.com/yonwon01/smartcar.storm)
 
 
 
