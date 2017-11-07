@@ -60,7 +60,7 @@
       6) 실시간 로그 파일에 대한 비동기 처리 
           -  플럼 수집 데이터를 Kafka Sink를 이용해 Kafka Topic에 비동기 전송
           
-     ![logsimulator](https://github.com/yonwon01/bigdata/blob/master/logsimulator.png)
+![logsimulator](https://github.com/yonwon01/bigdata/blob/master/logsimulator.png)
 
 
 2) 적재
