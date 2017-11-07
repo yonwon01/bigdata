@@ -59,8 +59,12 @@
           -  플럼의 메모리 Channel  그리고 카프카 Broker 사용으로  수집 데이터 임시 저장
       6) 실시간 로그 파일에 대한 비동기 처리 
           -  플럼 수집 데이터를 Kafka Sink를 이용해 Kafka Topic에 비동기 전송
+          
+     ![logsimulator](https://github.com/yonwon01/bigdata/blob/master/logsimulator.png)
+
 
 2) 적재
+
       1)
 
 
