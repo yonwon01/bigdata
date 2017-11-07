@@ -84,12 +84,11 @@
 ##### 자동차 상태 데이터 적재
 ![load](https://github.com/yonwon01/bigdata/blob/master/load.png)
 
-     <1> flume의 Source로 대용량 파일을 읽어 들이고 HDFS Sink를 통해 HDFS 특정 경로에 적재. 파일 타입, 파일명, 배치크기, 생성 파일 크기 등의 여러 정보를 설정.
-     <2> HDFS의 적재 경로를 HIVE에서 인지 할 수 있도록 날짜, 시간, 코드 등으로 파티셔닝. 
+        <1> flume의 Source로 대용량 파일을 읽어 들이고 HDFS Sink를 통해 HDFS 특정 경로에 적재. 파일 타입, 파일명, 배치크기, 생성 파일 크기 등의 여러 정보를 설정.
+        <2> HDFS의 적재 경로를 HIVE에서 인지 할 수 있도록 날짜, 시간, 코드 등으로 파티셔닝. 
 
 ##### 실시간 주행 데이터 적재
 ![redisload](https://github.com/yonwon01/bigdata/blob/master/redisload.png)
-
 
         <1> storm의 spout이 kafka의 topic으로 부터 차량의 실시간 주행 데이터를 받아 hbaseblot로 보내고 esper epl에서 정의한 조건에 따라 과속한 차량의 정보를 redissplot으로 보냄
         <2> hbase의 table에  ‘차량번호 + 발생일시’ 를 Row키로 8개의 컬럼(발생일시, 차량번호, 가속페달, 브레이크 페달, 운전대 회전각, 방향지시등, 주행속도, 주행구역)의 구조로 모든 차량의 주행정보가 적재
