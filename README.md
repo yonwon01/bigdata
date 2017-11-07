@@ -44,7 +44,7 @@
 ![domain](https://github.com/yonwon01/bigdata/blob/master/domain.png)
 
 
-## 순서
+* 순서
 1)  수집
 
      1) 로그 파일의 주기적 발생
