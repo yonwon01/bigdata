@@ -44,8 +44,8 @@
 ![domain](https://github.com/yonwon01/bigdata/blob/master/domain.png)
 
 
-* 순서
-   ###  수집
+## 순서
+*  수집
 
      1) 로그 파일의 주기적 발생
           -  플럼을 이용해 대용량 배치 파일 및 실시간 로그 파일을 수집
