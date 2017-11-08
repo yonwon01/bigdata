@@ -96,7 +96,9 @@
         
 ###### storm topology및 bolt구현 (https://github.com/yonwon01/smartcar.storm)
 
+
 3)  처리/탐색
+      
        1) 적재된 데이터는 하이브의 데이터 웨어하우스로 관리 되어야 한다.               
            - HDFS에 적재된 영역을 하이브의 External 영역으로 정의하고 하이브를 이용해 External -> Managed-> Mart 영역 단계별 구성
        2) 데이터 마트 구성에 필요한 데이터를 추가로 구성할 수 있다.
