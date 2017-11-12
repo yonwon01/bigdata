@@ -93,7 +93,7 @@
 ###### storm topology및 bolt구현 (https://github.com/yonwon01/smartcar.storm)
 
 
-3)  처리탐색
+3) 처리탐색
 
 
    1) 적재된 데이터는 하이브의 데이터 웨어하우스로 관리 되어야 함              
