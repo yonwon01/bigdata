@@ -113,8 +113,7 @@
          
          
          
- ###### oozie활용하여 datamart생성
- 
+###### oozie활용하여 datamart생성
  ![ooize](https://github.com/yonwon01/bigdata/blob/master/OOZIE.png)
          
 
