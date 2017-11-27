@@ -110,7 +110,13 @@
          3. 주행기록 정보 
          4. 긴급 점검이 필요한 차량 정보 
          5. 이상 주행 패턴 정보
-           
+         
+         
+         
+ ###### oozie활용하여 datamart생성
+ 
+ ![ooize](https://github.com/yonwon01/bigdata/blob/master/OOZIE.png)
+         
 
 
 
